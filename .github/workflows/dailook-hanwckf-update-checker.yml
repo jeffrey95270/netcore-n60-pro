@@ -20,7 +20,7 @@ on:
   workflow_dispatch:
 #  schedule:
 #    - cron: 0 */18 * * *
- permissions:
+permissions:
   contents: write
 jobs:
   check:
