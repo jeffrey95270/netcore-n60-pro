@@ -91,7 +91,7 @@ jobs:
       run: |
         cd /workdir/openwrt
         rm -rf feeds/packages/lang/golang
-        git clone --depth 1 https://github.com/sbwml/packages_lang_golang -b 23.x feeds/packages/lang/golang
+        git clone --depth 1 https://github.com/sbwml/packages_lang_golang -b 24.x feeds/packages/lang/golang
         rm -rf build_dir/host/golang* staging_dir/host/golang*
         
     - name: Compile the firmware
